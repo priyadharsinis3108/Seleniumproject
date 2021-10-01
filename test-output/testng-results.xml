@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T12:31:02 IST" name="SampleSuite2" finished-at="2021-09-23T12:31:44 IST" duration-ms="42343">
+    <groups>
+    </groups>
+    <test started-at="2021-09-23T12:31:02 IST" name="SampleTest" finished-at="2021-09-23T12:31:22 IST" duration-ms="20222">
+      <class name="selenium_maven_1.CrossBrowserScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:selenium_maven_1.CrossBrowserScript@35aea049]" started-at="2021-09-23T12:31:02 IST" name="setup" finished-at="2021-09-23T12:31:07 IST" duration-ms="5083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:selenium_maven_1.CrossBrowserScript@35aea049]" started-at="2021-09-23T12:31:07 IST" name="testParameterWithXML" finished-at="2021-09-23T12:31:22 IST" duration-ms="15082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- selenium_maven_1.CrossBrowserScript -->
+    </test> <!-- SampleTest -->
+    <test started-at="2021-09-23T12:31:22 IST" name="Sample2Test" finished-at="2021-09-23T12:31:44 IST" duration-ms="22044">
+      <class name="selenium_maven_1.CrossBrowserScript">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:selenium_maven_1.CrossBrowserScript@957e06]" started-at="2021-09-23T12:31:22 IST" name="setup" finished-at="2021-09-23T12:31:29 IST" duration-ms="6932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML()[pri:0, instance:selenium_maven_1.CrossBrowserScript@957e06]" started-at="2021-09-23T12:31:29 IST" name="testParameterWithXML" finished-at="2021-09-23T12:31:44 IST" duration-ms="15109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- selenium_maven_1.CrossBrowserScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
